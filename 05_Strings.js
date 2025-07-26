@@ -18,3 +18,17 @@ console.log(name.concat(" is a developer.")); // "Aman Kumar Gupta is a develope
 console.log(name.repeat(2)); // "Aman Kumar GuptaAman Kumar Gupta" (repeat string 2 times)
 console.log(name.search("Kumar")); // 5 (search for substring and return index)
 console.log(name.match(/a/g)); // ["a", "a", "a"] (find all occurrences of 'a')
+
+
+const gameName = "hitesh"
+const repoCount = 50
+11 // console.log(name + repoCount + Value");
+console.log(`Hello my name is ${name} and my repo count is ${repoCount.toString()}`); // Template literals for string interpolation
+
+
+
+const newStringOne =  "   hitesh   "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+const url = "https://hitesh.com/hitesh%20choudhary"
+console.log(url.replace('%20', '-'))
