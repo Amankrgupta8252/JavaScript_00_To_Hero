@@ -6,7 +6,7 @@
 // undefined => variable is declared but not assigned a value
 
 let AccountId = "AKG01"; 
-let AccountName = "Aman Kumar Gupta";
+let AccountName = "Aman Kumar Gupta";   
 let MobleNumber = 9876543210;
 let AccountStatus = "true"; 
 
