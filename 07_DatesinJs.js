@@ -42,3 +42,5 @@ console.log(MyDate.toLocaleString('en-IN', {
     minute: '2-digit',
     second: '2-digit'
 })); // Formats date in a readable way for Indian locale
+
+
