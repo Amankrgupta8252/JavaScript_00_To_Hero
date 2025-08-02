@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="timeOut">
+    <h1>
+        Hello Aman Gupta
+    </h1>
+</body>
+<script>
+    const rendonNum = Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, "0");
+    const timeOut = function() {
+        document.body.style.backgroundColor =`#${rendonNum}`;
+        console.log(`#${rendonNum}`)
+    }
+    setInterval(timeOut, 2000)
+</script>
+</html>
